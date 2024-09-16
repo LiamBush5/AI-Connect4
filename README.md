@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Connect 4 AI
+
+This repository contains a Connect 4 game built using Next.js and TypeScript, featuring multiple AI strategies that users can play against. The goal of this project is to create an interactive and challenging game by incorporating a variety of AI algorithms, showcasing how decision-making can be implemented in a classic game environment.
+
+## Project Goals
+
+- **AI-Driven Gameplay**: Implement a range of AI strategies, from simple random moves to more complex algorithms like Minimax, Negamax, and Alpha-Beta Pruning. These strategies are designed to provide varying levels of difficulty, allowing users to test their skills against different AI opponents.
+- **Interactive UI**: A clean, responsive user interface built using Tailwind CSS, ensuring that the game is intuitive and enjoyable to play on any device.
+- **Learning Platform**: This project also serves as an exploration of AI decision-making in games, demonstrating practical applications of algorithms in a real-world setting.
+
+## Features
+
+- **Multiple AI Levels**: Compete against AIs with different strategies.
+- **Responsive Design**: Play the game on mobile, tablet, or desktop.
+- **Easy Setup**: Clone the repository, install dependencies, and start playing right away.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project locally:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/yourusername/connect-4-ai.git
+   ```
+2. Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   cd connect-4-ai
+   ```
+3. Install the dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   npm install
+   ```
+4. Run the development server:
 
-## Learn More
+   ```bash
+   npm run dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view and play the game.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Enjoy playing Connect 4 with smart AI opponents!
